@@ -1,12 +1,27 @@
-# Python-Password_generator
-A simple password generator for beginners in python explaining how it's struscture and how you could improve it!
+Password Generator
+  This is a Python script that generates secure random passwords for use on websites and other online services. The script allows the user to specify the length of the   password and includes only characters that are allowed by the website being used.
 
+Getting Started
+  Prerequisites
+  Python 3.x installed on your system.
+Installing
+  Download the password_generator.py file to your computer.
+  Open a terminal or command prompt and navigate to the directory where the file is saved.
+  Run the script by typing python password_generator.py and pressing enter.
+Usage
+  When you run the script, you will be prompted to choose an option:
 
-To run in terminal. No module or packages needed, everything is magic ;)
-To run go to the directory where the file is located then in the cmd type python main.py
-it is possible that the command isnt running well you should install python for that.
+Enter 1 to generate a new password.
+Enter 2 to exit the script.
+If you choose option 1, you will be prompted to enter the desired length of your password (between 6 and 20 characters). The script will then generate a random password using only characters that are allowed by the website being used. You will be shown the password and prompted to confirm it. If you confirm the password, the script will exit. If you do not confirm the password, the script will generate a new one.
 
-Have a great day!
+If you choose option 2, the script will exit.
 
-You can add features such as copying password once printed using pyperclip library
-You can also fix somes errors in the codes for more fun!
+Security
+  This script uses the random module to generate secure random passwords. The list of characters used by the script is limited to only those characters that are    allowed by the website being used, which reduces the risk of generating a password that contains disallowed characters. The script prompts the user to confirm their password to prevent typos.
+
+Contributing
+Contributions to this project are welcome. If you find a bug or have an idea for an improvement, please open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
